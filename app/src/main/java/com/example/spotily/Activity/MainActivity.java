@@ -27,6 +27,16 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        TextView button = findViewById(R.id.btnLogIn);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivities(new Intent[]{new Intent(MainActivity.this, LogIn.class)});
+
+            }
+        });
+
     }
 
 
