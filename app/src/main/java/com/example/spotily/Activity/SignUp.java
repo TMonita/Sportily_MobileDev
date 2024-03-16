@@ -17,11 +17,11 @@ public class SignUp extends AppCompatActivity {
     }
 
     public void onClickSubmit (View view){
-        TextView txtFullName = findViewById(R.id.txtFullName);
-        TextView txtPhoneNumber = findViewById(R.id.txtPhone);
-        TextView txtEmail = findViewById(R.id.txtEmail);
+        TextView txtFullName = findViewById(R.id.txtFullName_ad);
+        TextView txtPhoneNumber = findViewById(R.id.Id_ad);
+        TextView txtEmail = findViewById(R.id.Phone_ad);
         TextView txtGender = findViewById(R.id.txtGender);
-        TextView txtPassword = findViewById(R.id.txtPassword);
+        TextView txtPassword = findViewById(R.id.Password_ad);
         TextView txtConfirmPassword = findViewById(R.id.txtConfirmPassword);
 
     }

@@ -45,7 +45,7 @@
                 android:minHeight="48dp" />
 
             <EditText
-                android:id="@+id/txtPhone"
+                android:id="@+id/txtphone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -57,7 +57,7 @@
                 android:minHeight="48dp" />
 
             <EditText
-                android:id="@+id/txtEmail"
+                android:id="@+id/txtEmial"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -138,7 +138,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/forgot_ad"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="70dp"
@@ -146,7 +146,7 @@
                     android:text="Already have an account?" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/CreateNew_ad"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="100dp"
